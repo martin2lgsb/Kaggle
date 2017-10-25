@@ -20,7 +20,7 @@ lx = np.arange(0, 12)
 # ly = (- intercept - lx * coef[0]) / coef[1]
 # plt.plot(lx, ly, c='yellow')
 
-#训练数据
+#训练模型
 lr = LogisticRegression()
 # lr.fit(df_train[['Clump Thickness', 'Cell Size']][:10], df_train['Type'][:10])
 lr.fit(df_train[['Clump Thickness', 'Cell Size']], df_train['Type'])
