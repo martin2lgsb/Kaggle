@@ -29,8 +29,7 @@ print(score)
 
 intercept = lr.intercept_
 coef = lr.coef_[0, :]
-ly = (-intercept - lx *
-coef[0]) / coef[1]
+ly = (-intercept - lx * coef[0]) / coef[1]
 plt.plot(lx, ly, c='blue')
 
 #绘特征图
