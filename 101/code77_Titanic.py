@@ -6,8 +6,8 @@ from sklearn.cross_validation import cross_val_score
 from sklearn.grid_search import GridSearchCV
 
 # 数据导入 & 整理 & 分割 & 标准化
-train = pd.read_csv('./Titanic/train.csv')
-test = pd.read_csv('./Titanic/test.csv')
+train = pd.read_csv('../../Datasets/Kaggle/Titanic/train.csv')
+test = pd.read_csv('../../Datasets/Kaggle/Titanic/test.csv')
 # print(train.info())
 # print(test.info())
 

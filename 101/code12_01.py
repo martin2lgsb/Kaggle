@@ -5,8 +5,8 @@ from sklearn.linear_model import LogisticRegression
 
 
 #导入数据
-df_train = pd.read_csv('./Breast-Cancer/breast-cancer-train.csv')
-df_test = pd.read_csv('./Breast-Cancer/breast-cancer-test.csv')
+df_train = pd.read_csv('../../Datasets/Kaggle/Breast-Cancer/breast-cancer-train.csv')
+df_test = pd.read_csv('../../Datasets/Kaggle/Breast-Cancer/breast-cancer-test.csv')
 print(df_train.shape, df_test.shape)
 
 #特征值

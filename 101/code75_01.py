@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 
 
 #数据导入 & 分割
-train = pd.read_csv('./Breast-Cancer/breast-cancer-train.csv')
-test = pd.read_csv('./Breast-Cancer/breast-cancer-test.csv')
+train = pd.read_csv('../../Datasets/Kaggle/Breast-Cancer/breast-cancer-train.csv')
+test = pd.read_csv('../../Datasets/Kaggle/Breast-Cancer/breast-cancer-test.csv')
 
 X_train = np.float32(train[['Clump Thickness', 'Cell Size']].T)
 y_train = np.float32(train['Type'].T)
